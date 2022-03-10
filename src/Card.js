@@ -6,7 +6,6 @@ const Card = ({name, email, id}) => {
             <img alt="robots" src={` https://robohash.org/set_set1/bgset_any/${id}?size=200x200`} />
             <div>
                 <h2>{name}</h2>
-                <p>{email}</p>
             </div>
         </div>
     );
