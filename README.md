@@ -1,6 +1,7 @@
-# WELCOME TO THE NEW AND IMPROVED ROBOFRIENDS !!
+# WELCOME TO THE NEW AND IMPROVED ROBOFRIENDS
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Sprint List:
+[Sprint #1](https://github.com/zanemooney/robofriends_cis486/milestone/1).
 
 ## Available Scripts
 
