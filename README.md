@@ -8,6 +8,8 @@ Sprint List:
 
 [TEAM Product Backlog](https://una.instructure.com/courses/68232/assignments/660141).
 
+[TEAM Sprint Review](https://una.instructure.com/courses/68232/assignments/686596).
+
 ## Available Scripts
 
 In the project directory, you can run:
