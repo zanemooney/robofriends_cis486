@@ -8,13 +8,14 @@ const Card = ({name, id}) => {
             <img alt="robots" src={` https://robohash.org/set_set1/bgset_any/${id}?size=200x200`} />
             <div>
                 <h2>{name}</h2>
-                <div className="e-card-actions">
-                    <button id={`${id}-up`} className="voteUp e-card-btn">
-                        <GoArrowUp />
-                    </button>
-                    <button id={`${id}-down`} className="voteDown e-card-btn">
-                        <GoArrowDown />
-                    </button>
+                <div className="flex justify-around">
+                    <a id={`${id}-up`} className="btnBG br3 pa3 ma2 grow bw2 shadow-5">
+                        <GoArrowUp className="h2"/>
+                    </a>
+                    <h2 className="m-auto">75</h2>
+                    <a id={`${id}-down`} className="btnBG br3 pa3 ma2 grow bw2 shadow-5">
+                    <GoArrowDown className="h2"/>
+                    </a>
                 </div>
             </div>
         </div>
