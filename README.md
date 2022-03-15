@@ -5,6 +5,7 @@
 ## Sprint List:
 
 [Sprint #1](https://github.com/zanemooney/robofriends_cis486/milestone/1). Due: 15 Mar 2022 | 23:59:59 CST
+
 [Sprint #2](https://github.com/zanemooney/robofriends_cis486/milestone/2). Due: 7 Apr 2022 | 23:59:59 CST
 
 ## Delieverables:
