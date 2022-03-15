@@ -1,5 +1,10 @@
 # WELCOME TO THE NEW AND IMPROVED ROBOFRIENDS
 
+### User Story Card
+**As a..** Robofriend fan
+**I want..** to vote on my favorite robots.
+**So That..** my favorite robot will not be destroyed.
+
 [Meet The Team](https://github.com/zanemooney/robofriends_cis486/wiki)
 
 ## Sprint List:
