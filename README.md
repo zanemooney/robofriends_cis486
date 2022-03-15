@@ -12,7 +12,7 @@
 
 **Do you like robots? Do you want to watch your favorite robots compete in a popularity contest with other robots?** Then Robofriends is the perfect application for you! Our application will include voting for your favorite robots in a battle of beauty, coolness, and whatever factors make robots quirky! Think of Reddit, but for robot NFTs. 
 
-We will be taking [Katrina's original project](https://kat-robofriends.herokuapp.com/) and making it more advanced to allow more funcitonality and enhance the user experience.
+We will be taking [Katrina's original project](https://kat-robofriends.herokuapp.com/) and making it more advanced to allow more functionality and enhance the user experience.
 
 _Please continue to read the README.md to learn more about the project._
 
