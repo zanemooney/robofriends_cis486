@@ -1,4 +1,6 @@
 import React from "react";
+import { GoArrowUp } from "react-icons/go";
+import { GoArrowDown } from "react-icons/go";
 
 const Card = ({name, id}) => {
     return (
@@ -8,10 +10,10 @@ const Card = ({name, id}) => {
                 <h2>{name}</h2>
                 <div className="e-card-actions">
                     <button id={`${id}-up`} className="voteUp e-card-btn">
-                        <img src='./assets/up.png' title="Up" alt="up"/>
+                        <GoArrowUp />
                     </button>
                     <button id={`${id}-down`} className="voteDown e-card-btn">
-                        <img src='./assets/down.png' title="Down" alt="down"/>
+                        <GoArrowDown />
                     </button>
                 </div>
             </div>
