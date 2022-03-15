@@ -16,6 +16,18 @@
 
 [TEAM Sprint Backlog](https://una.instructure.com/courses/68232/assignments/660145). Due: 7 Apr 2022 | 23:59:59 CST
 
+## Project Scope:
+
+Robofriends is an application that is going to allow the user to vote for their favorite robot. These robots' are randomly generated from an API named [RoboHash](https://robohash.org/).
+
+_We are currently taking this project:_
+![before](https://user-images.githubusercontent.com/89221221/158468873-df1334fb-9b48-4e41-80eb-428caef01e80.PNG)
+
+_And want to add this functionality:_
+![after](https://user-images.githubusercontent.com/89221221/158468933-1ea8ccde-4f05-4fc0-bb1b-12f77963f34b.PNG)
+
+
+
 ## Available Scripts
 
 In the project directory, you can run:
