@@ -1,6 +1,6 @@
 # WELCOME TO THE NEW AND IMPROVED ROBOFRIENDS
 
-### User Story Card
+### _User Story Card_
 
 **As a..** Robofriend fan
 
