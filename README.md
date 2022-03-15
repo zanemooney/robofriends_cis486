@@ -1,6 +1,8 @@
 # WELCOME TO THE NEW AND IMPROVED ROBOFRIENDS
 
-Sprint List:
+[Meet The Team](https://github.com/zanemooney/robofriends_cis486/wiki)
+
+## Sprint List:
 
 [Sprint #1](https://github.com/zanemooney/robofriends_cis486/milestone/1).
 
