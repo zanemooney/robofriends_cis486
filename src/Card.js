@@ -1,4 +1,5 @@
 import React from "react";
+import Button from "./Button";
 
 const Card = ({name, id}) => {
     return (
@@ -6,6 +7,7 @@ const Card = ({name, id}) => {
             <img alt="robots" src={` https://robohash.org/set_set1/bgset_any/${id}?size=200x200`} />
             <div>
                 <h2>{name}</h2>
+                <Button />
             </div>
         </div>
     );
