@@ -8,7 +8,7 @@
 
 [Sprint #2](https://github.com/zanemooney/robofriends_cis486/milestone/2). Due: 7 Apr 2022 | 23:59:59 CST
 
-## Delieverables:
+## Delieverables for Canvas Course:
 
 [TEAM Product Backlog](https://una.instructure.com/courses/68232/assignments/660141). Due: 15 Mar 2022 | 23:59:59 CST
 
