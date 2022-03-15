@@ -1,17 +1,60 @@
-const Graham  = document.querySelector('#vote-Graham')
-const Howell  = document.querySelector('#vote-Howell')
-const Bauch  = document.querySelector('#vote-Bauch')
-const Lebsack  = document.querySelector('#vote-Lebsack')
-const Dietrich  = document.querySelector('#vote-Dietrich')
-const Schulist  = document.querySelector('#vote-Schulist')
-const Weissnat  = document.querySelector('#vote-Weissnat')
-const Runolfsdottir  = document.querySelector('#vote-Runolfsdottir')
-const Reichert  = document.querySelector('#vote-Reichert')
-const DuBuque  = document.querySelector('#vote-DuBuque')
+// import React from 'react';
+
+
+// const dbID = ["6229521266c82cfa444cda85", 
+//             "622952ca66c82cfa444cda87", 
+//             "6229533f66c82cfa444cda88", 
+//             "6229537066c82cfa444cda8a",
+//             "6229533f66c82cfa444cda88",
+//             "622953e766c82cfa444cda8c",
+//             "6229540966c82cfa444cda8e",
+//             "6229542466c82cfa444cda8f",
+//             "6229544266c82cfa444cda91",
+//             "6229545666c82cfa444cda92"];
 
 
 
-Graham.addEventListener('click', _ => {
+
+
+const upGraham  = document.getElementById('#1-up');
+const upHowell  = document.getElementById('#2-up');
+const upBauch  = document.getElementById('#3-up');
+const upLebsack  = document.getElementById('#4-up');
+const upDietrich  = document.getElementById('#5-up');
+const upSchulist  = document.getElementById('#6-up');
+const upWeissnat  = document.getElementById('#7-up');
+const upRunolfsdottir  = document.getElementById('8-up');
+const upReichert  = document.getElementById('#9-up');
+const upDuBuque  = document.getElementById('#10-up');
+
+const downGraham  = document.getElementById('#1-down');
+const downHowell  = document.getElementById('#2-down');
+const downBauch  = document.getElementById('#3-down');
+const downLebsack  = document.getElementById('#4-down');
+const downDietrich  = document.getElementById('#5-down');
+const downSchulist  = document.getElementById('#6-down');
+const downWeissnat  = document.getElementById('#7-down');
+const downRunolfsdottir  = document.getElementById('#8-down');
+const downReichert  = document.getElementById('#9-down');
+const downDuBuque  = document.getElementById('#10-down');
+
+//  document.getElementById(`${id}-up`).addEventListener('click', _ => {
+//   fetch('/robo-up/${', {
+//     method: 'put',
+//     headers: { 'Content-Type': 'application/json' },
+//     body: JSON.stringify({ $inc: { votes: 1}})
+//   })
+//     .then(res => {
+//       if (res.ok) return res.json()
+//     })
+//     .then(response => {
+//       window.location.reload(true)
+//     })
+// })
+
+
+
+upGraham.addEventListener('click', _ => {
   fetch('/robo-up/6229521266c82cfa444cda85', {
     method: 'put',
     headers: { 'Content-Type': 'application/json' },
@@ -25,7 +68,7 @@ Graham.addEventListener('click', _ => {
     })
 })
 
-Howell.addEventListener('click', _ => {
+upHowell.addEventListener('click', _ => {
     fetch('/robo-up/622952ca66c82cfa444cda87', {
       method: 'put',
       headers: { 'Content-Type': 'application/json' },
@@ -39,7 +82,7 @@ Howell.addEventListener('click', _ => {
       })
 })
 
-Bauch.addEventListener('click', _ => {
+upBauch.addEventListener('click', _ => {
     fetch('/robo-up/6229533f66c82cfa444cda88', {
       method: 'put',
       headers: { 'Content-Type': 'application/json' },
@@ -53,7 +96,7 @@ Bauch.addEventListener('click', _ => {
       })
 })
 
-Lebsack.addEventListener('click', _ => {
+upLebsack.addEventListener('click', _ => {
     fetch('/robo-up/6229537066c82cfa444cda8a', {
       method: 'put',
       headers: { 'Content-Type': 'application/json' },
@@ -67,7 +110,7 @@ Lebsack.addEventListener('click', _ => {
       })
 })
 
-Dietrich.addEventListener('click', _ => {
+upDietrich.addEventListener('click', _ => {
     fetch('/robo-up/622953c366c82cfa444cda8b', {
       method: 'put',
       headers: { 'Content-Type': 'application/json' },
@@ -81,7 +124,7 @@ Dietrich.addEventListener('click', _ => {
       })
 })
 
-Schulist.addEventListener('click', _ => {
+upSchulist.addEventListener('click', _ => {
     fetch('/robo-up/622953e766c82cfa444cda8c', {
       method: 'put',
       headers: { 'Content-Type': 'application/json' },
@@ -95,7 +138,7 @@ Schulist.addEventListener('click', _ => {
       })
 })
 
-Weissnat.addEventListener('click', _ => {
+upWeissnat.addEventListener('click', _ => {
     fetch('/robo-up/6229540966c82cfa444cda8e', {
       method: 'put',
       headers: { 'Content-Type': 'application/json' },
@@ -109,7 +152,7 @@ Weissnat.addEventListener('click', _ => {
       })
 })
 
-Runolfsdottir.addEventListener('click', _ => {
+upRunolfsdottir.addEventListener('click', _ => {
     fetch('/robo-up/6229542466c82cfa444cda8f', {
       method: 'put',
       headers: { 'Content-Type': 'application/json' },
@@ -123,7 +166,7 @@ Runolfsdottir.addEventListener('click', _ => {
       })
 })
 
-Reichert.addEventListener('click', _ => {
+upReichert.addEventListener('click', _ => {
     fetch('/robo-up/6229544266c82cfa444cda91', {
       method: 'put',
       headers: { 'Content-Type': 'application/json' },
@@ -137,7 +180,7 @@ Reichert.addEventListener('click', _ => {
       })
 })
 
-DuBuque.addEventListener('click', _ => {
+upDuBuque.addEventListener('click', _ => {
     fetch('/robo-down/6229545666c82cfa444cda92', {
       method: 'put',
       headers: { 'Content-Type': 'application/json' },
@@ -151,7 +194,7 @@ DuBuque.addEventListener('click', _ => {
       })
 })
 
-Graham.addEventListener('click', _ => {
+downGraham.addEventListener('click', _ => {
   fetch('/robo-down/6229521266c82cfa444cda85', {
     method: 'put',
     headers: { 'Content-Type': 'application/json' },
@@ -165,7 +208,7 @@ Graham.addEventListener('click', _ => {
     })
 })
 
-Howell.addEventListener('click', _ => {
+downHowell.addEventListener('click', _ => {
     fetch('/robo-down/622952ca66c82cfa444cda87', {
       method: 'put',
       headers: { 'Content-Type': 'application/json' },
@@ -179,7 +222,7 @@ Howell.addEventListener('click', _ => {
       })
 })
 
-Bauch.addEventListener('click', _ => {
+downBauch.addEventListener('click', _ => {
     fetch('/robo-down/6229533f66c82cfa444cda88', {
       method: 'put',
       headers: { 'Content-Type': 'application/json' },
@@ -193,7 +236,7 @@ Bauch.addEventListener('click', _ => {
       })
 })
 
-Lebsack.addEventListener('click', _ => {
+downLebsack.addEventListener('click', _ => {
     fetch('/robo-down/6229537066c82cfa444cda8a', {
       method: 'put',
       headers: { 'Content-Type': 'application/json' },
@@ -207,7 +250,7 @@ Lebsack.addEventListener('click', _ => {
       })
 })
 
-Dietrich.addEventListener('click', _ => {
+downDietrich.addEventListener('click', _ => {
     fetch('/robo-down/622953c366c82cfa444cda8b', {
       method: 'put',
       headers: { 'Content-Type': 'application/json' },
@@ -221,7 +264,7 @@ Dietrich.addEventListener('click', _ => {
       })
 })
 
-Schulist.addEventListener('click', _ => {
+downSchulist.addEventListener('click', _ => {
     fetch('/robo-down/622953e766c82cfa444cda8c', {
       method: 'put',
       headers: { 'Content-Type': 'application/json' },
@@ -235,7 +278,7 @@ Schulist.addEventListener('click', _ => {
       })
 })
 
-Weissnat.addEventListener('click', _ => {
+downWeissnat.addEventListener('click', _ => {
     fetch('/robo-down/6229540966c82cfa444cda8e', {
       method: 'put',
       headers: { 'Content-Type': 'application/json' },
@@ -249,7 +292,7 @@ Weissnat.addEventListener('click', _ => {
       })
 })
 
-Runolfsdottir.addEventListener('click', _ => {
+downRunolfsdottir.addEventListener('click', _ => {
     fetch('/robo-down/6229542466c82cfa444cda8f', {
       method: 'put',
       headers: { 'Content-Type': 'application/json' },
@@ -263,7 +306,7 @@ Runolfsdottir.addEventListener('click', _ => {
       })
 })
 
-Reichert.addEventListener('click', _ => {
+downReichert.addEventListener('click', _ => {
     fetch('/robo-down/6229544266c82cfa444cda91', {
       method: 'put',
       headers: { 'Content-Type': 'application/json' },
@@ -277,7 +320,7 @@ Reichert.addEventListener('click', _ => {
       })
 })
 
-DuBuque.addEventListener('click', _ => {
+downDuBuque.addEventListener('click', _ => {
     fetch('/robo-down/6229545666c82cfa444cda92', {
       method: 'put',
       headers: { 'Content-Type': 'application/json' },
