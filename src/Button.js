@@ -3,10 +3,10 @@ import React from "react";
 const Button = () => {
   return (
       <div className="e-card-actions">
-        <button className="e-card-btn">
+        <button className="voteUp e-card-btn">
           <img src='./assets/up.png' title="Up" alt="up"/>
         </button>
-        <button className="e-card-btn">
+        <button className="voteDown e-card-btn">
           <img src='./assets/down.png' title="Down" alt="down"/>
         </button>
       </div>

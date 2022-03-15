@@ -43,7 +43,6 @@ class App extends Component {
                         </Scroll>
                         <BoyDevs />
                     </section>
-
                 </div>
             );
         }
