@@ -6,9 +6,11 @@ Sprint List:
 
 ## Delieverables:
 
-[TEAM Product Backlog](https://una.instructure.com/courses/68232/assignments/660141).
+[TEAM Product Backlog](https://una.instructure.com/courses/68232/assignments/660141). Due: 15 Mar 2022 | 23:59:59 CST
 
-[TEAM Sprint Review](https://una.instructure.com/courses/68232/assignments/686596).
+[TEAM Sprint Review](https://una.instructure.com/courses/68232/assignments/686596). Due: 24 Mar 2022 | 23:59:59 CST
+
+[TEAM Sprint Backlog](https://una.instructure.com/courses/68232/assignments/660145). Due: 7 Apr 2022 | 23:59:59 CST
 
 ## Available Scripts
 
