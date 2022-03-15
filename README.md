@@ -21,10 +21,12 @@
 Robofriends is an application that is going to allow the user to vote for their favorite robot. These robots' are randomly generated from an API named [RoboHash](https://robohash.org/).
 
 _We are currently taking this project:_
+
 ![before](https://user-images.githubusercontent.com/89221221/158468873-df1334fb-9b48-4e41-80eb-428caef01e80.PNG)
 
 
 _And want to add this functionality:_
+
 ![after](https://user-images.githubusercontent.com/89221221/158468933-1ea8ccde-4f05-4fc0-bb1b-12f77963f34b.PNG)
 
 Using the [AGILE development method](https://agilemanifesto.org/), the scope of the project will continue to grow, however, scope creep will be a constant factor in consideration if ever adding new functions.
