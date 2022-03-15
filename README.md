@@ -29,6 +29,8 @@ _And want to add this functionality:_
 
 ![after](https://user-images.githubusercontent.com/89221221/158468933-1ea8ccde-4f05-4fc0-bb1b-12f77963f34b.PNG)
 
+This product will _hopefully_ be a fun and interactive application to allow users to vote on various randomly generated robot pictures. We hope that if we have enough time we can add a function to allow users to generate their own robot using their own name.
+
 Using the [AGILE development method](https://agilemanifesto.org/), the scope of the project will continue to grow, however, scope creep will be a constant factor in consideration if ever adding new functions.
 
 ## Available Scripts
