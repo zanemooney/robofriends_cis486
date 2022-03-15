@@ -1,5 +1,4 @@
 import React from "react";
-import Button from "./Button";
 
 const Card = ({name, id}) => {
     return (
@@ -7,7 +6,14 @@ const Card = ({name, id}) => {
             <img alt="robots" src={` https://robohash.org/set_set1/bgset_any/${id}?size=200x200`} />
             <div>
                 <h2>{name}</h2>
-                <Button />
+                <div className="e-card-actions">
+                    <button id={`${id}-up`} className="voteUp e-card-btn">
+                        <img src='./assets/up.png' title="Up" alt="up"/>
+                    </button>
+                    <button id={`${id}-down`} className="voteDown e-card-btn">
+                        <img src='./assets/down.png' title="Down" alt="down"/>
+                    </button>
+                </div>
             </div>
         </div>
     );
