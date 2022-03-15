@@ -1,13 +1,21 @@
 import React from "react";
+import Button from "./Button";
 
-const Card = ({name, id}) => {
+const Card = ({name, id, button}) => {
     return (
         <div id={`${id}`} className='tc bg-light-green dib br3 pa3 ma2 grow bw2 shadow-5'>
             <img alt="robots" src={` https://robohash.org/set_set1/bgset_any/${id}?size=200x200`} />
             <div>
                 <h2>{name}</h2>
+                {
+                    <Button 
+                
+                    />
+
+                    })
             </div>
         </div>
+        
     );
 }
 

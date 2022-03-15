@@ -1,6 +1,5 @@
 import React from "react";
 import Card from "./Card";
-import Button from "./Button";
 
 const CardList = ({robots}) => {
     return (
@@ -12,7 +11,7 @@ const CardList = ({robots}) => {
                             key={i}
                             id={robots[i].id}
                             name={robots[i].name}
-                            up={robots[i].up}
+                            
                         />
                     );
                 })
