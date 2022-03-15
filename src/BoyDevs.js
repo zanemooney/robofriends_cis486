@@ -1,6 +1,6 @@
 import React from "react";
 
-const BoyDevs = ({id}) => {
+const BoyDevs = () => {
     return (
         <div className="flex flex-column">
             <div className='tc bg-light-green dib br3 pa3 ma2 grow bw2 shadow-5'>
