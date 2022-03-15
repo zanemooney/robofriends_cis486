@@ -14,7 +14,7 @@
 
 We will be taking [Katrina's original project](https://kat-robofriends.herokuapp.com/) and making it more advanced to allow more funcitonality and enhance the user experience.
 
-Please continue to read the README.md to learn more about the project.
+_Please continue to read the README.md to learn more about the project._
 
 [Meet The Team](https://github.com/zanemooney/robofriends_cis486/wiki)
 
