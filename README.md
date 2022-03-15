@@ -8,6 +8,12 @@
 
 **So That..** my favorite robot will not be destroyed.
 
+![image](https://user-images.githubusercontent.com/89221221/158474163-8cc7e6bc-7d84-48e1-a713-115141a736d3.png)
+
+**Do you like robots? Do you want to watch your favorite robots compete in a popularity contest with other robots?** Then Robofriends is the perfect application for you! Our application will include voting for your favorite robots in a battle of beauty, coolness, and whatever factors make robots quirky! Think of Reddit, but for robot NFTs. 
+
+Please continue to read the README.md to learn more about the project.
+
 [Meet The Team](https://github.com/zanemooney/robofriends_cis486/wiki)
 
 ## Sprint List:
