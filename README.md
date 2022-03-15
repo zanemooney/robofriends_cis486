@@ -18,7 +18,7 @@
 
 ## Project Scope:
 
-Robofriends is an application that is going to allow the user to vote for their favorite robot. These robots' are randomly generated from an API named [RoboHash](https://robohash.org/).
+Robofriends is an application that is going to allow the user to vote for their favorite robot. These robots will be filtered to show the highest rated robots. These robots' are randomly generated from an API named [RoboHash](https://robohash.org/).
 
 _We are currently taking this project:_
 
