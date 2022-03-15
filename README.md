@@ -1,7 +1,12 @@
 # WELCOME TO THE NEW AND IMPROVED ROBOFRIENDS
 
 Sprint List:
+
 [Sprint #1](https://github.com/zanemooney/robofriends_cis486/milestone/1).
+
+## Delieverables:
+
+[TEAM Product Backlog](https://una.instructure.com/courses/68232/assignments/660141).
 
 ## Available Scripts
 
