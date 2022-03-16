@@ -9,13 +9,9 @@ const Card = ({name, id}) => {
             <div>
                 <h2>{name}</h2>
                 <div className="flex justify-around">
-                    <a id={`${id}-up`} className="btnBG br3 pa3 ma2 grow bw2 shadow-5">
-                        <GoArrowUp className="h2"/>
-                    </a>
-                    <h2 className="m-auto">75</h2>
-                    <a id={`${id}-down`} className="btnBG br3 pa3 ma2 grow bw2 shadow-5">
-                    <GoArrowDown className="h2"/>
-                    </a>
+                    <GoArrowUp id={`${id}-up`} className="btnBG br3 pa2 ma2 grow bw2 shadow-5"/>
+                    <p>75</p>
+                    <GoArrowDown id={`${id}-down`} className="btnBG br3 pa2 ma2 grow bw2 shadow-5" />
                 </div>
             </div>
         </div>
