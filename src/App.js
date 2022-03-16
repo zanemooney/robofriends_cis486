@@ -36,6 +36,7 @@ class App extends Component {
                 <div className="tc">        
                     <h1 className="f1" >RoboFriends</h1>
                     <SearchBox searchChange={this.onSearchChange} />
+                    <h2>Vote for you favorite Robo Friend!</h2>
                     <section className="flex justify-around mr2">
                         <GirlDevs />
                         <Scroll>
