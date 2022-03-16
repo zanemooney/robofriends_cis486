@@ -1,6 +1,8 @@
 import React from "react";
 import { GoArrowUp } from "react-icons/go";
 import { GoArrowDown } from "react-icons/go";
+var axios = require('axios');
+
 
 const Card = ({name, id}) => {
     return (
@@ -17,5 +19,35 @@ const Card = ({name, id}) => {
         </div>
     );
 }
+
+var data = JSON.stringify({
+    "collection": "robos",
+    "database": "robofriends",
+    "dataSource": "roboFriends",
+    "filter" : {"apiID" : `${id}`},
+    "projection": {
+        "_id" : 0,
+        "votes" : 1
+    }
+});
+
+var config = {
+    method: 'post',
+    url: 'https://data.mongodb-api.com/app/data-pjnkk/endpoint/data/beta/action/findOne',
+    headers: {
+        'Content-Type': 'application/json',
+        'Access-Control-Request-Headers': '*',
+        'api-key': ''
+    },
+    data : data
+};
+
+axios(config)
+    .then(function (response) {
+        console.log(JSON.stringify(response.data)); // this line stores data; replace console.log with a variable and remove parenthesis
+    })
+    .catch(function (error) {
+        console.log(error);
+    });
 
 export default Card;
