@@ -24,7 +24,7 @@ const Card = ({name, id}) => {
                                 "collection": "robos",
                                 "database": "robofriends",
                                 "dataSource": "roboFriends",
-                                "filter" : {"apiID" : id},
+                                "filter" : {"id" : id},
                                 "update": { "$inc" : {"votes" : 1}}
                             });         
                             var config = {
@@ -37,12 +37,9 @@ const Card = ({name, id}) => {
                                 data : data
                             };
                             axios(config)
-                                .then(function (response) {
-                                    console.log(JSON.stringify(response.data)); // this line stores data; replace console.log with a variable and remove parenthesis
-                                })
                                 .catch(function (error) {
                                     console.log(error);
-                                }); 
+                                });  
                         }
                     } className="btnBG br3 pa2 ma2 grow bw2 shadow-5"/>
                     <p>75</p>
@@ -52,7 +49,7 @@ const Card = ({name, id}) => {
                                 "collection": "robos",
                                 "database": "robofriends",
                                 "dataSource": "roboFriends",
-                                "filter" : {"apiID" : id},
+                                "filter" : {"id" : id},
                                 "update": { "$inc" : {"votes" : -1}}
                             });         
                             var config = {
@@ -65,12 +62,7 @@ const Card = ({name, id}) => {
                                 data : data
                             };
                             axios(config)
-                                .then(function (response) {
-                                    console.log(JSON.stringify(response.data)); // this line stores data; replace console.log with a variable and remove parenthesis
-                                })
-                                .catch(function (error) {
-                                    console.log(error);
-                                }); 
+                                .catch(error => console.log(error));
                         }
                     } className="btnBG br3 pa2 ma2 grow bw2 shadow-5" />
                 </div>
