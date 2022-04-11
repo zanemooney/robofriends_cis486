@@ -17,6 +17,8 @@ const Card = ({name, id}) => {
                 <div className="flex justify-around">
                     <GoArrowUp onClick={
                         () => {
+                            let elementID=id+"-votes";
+                            document.getElementById(elementID).innerHTML = "Loading";
                             var data = JSON.stringify({
                                 "collection": "robos",
                                 "database": "robofriends",
@@ -33,7 +35,6 @@ const Card = ({name, id}) => {
                                 },
                                 data : data
                             };
-                            let elementID=id+"-votes";
                             axios(config)
                                 .then(() => document.getElementById(elementID).click())
                                 .catch(error => console.log(error));
@@ -66,8 +67,10 @@ const Card = ({name, id}) => {
                                 });
                         }
                     }>error</p>
-                    <a href="./"><GoArrowDown onClick={
+                    <GoArrowDown onClick={
                         () => {
+                            let elementID1= id+"-votes";
+                            document.getElementById(elementID1).innerHTML = "Loading";
                             var data = JSON.stringify({
                                 "collection": "robos",
                                 "database": "robofriends",
@@ -83,12 +86,12 @@ const Card = ({name, id}) => {
                                     'api-key': 'zqrxA3vvBjReuWuyOgUC6Lh32Vx5ax2AMJmwPw0SmR9BLoVU6Cd0cnyjqSoqgb2r'
                                 },
                                 data : data
-                            };                            let elementID=id+"-votes";
+                            };                            
                             axios(config)
-                                .then(() => document.getElementById(elementID).click())
+                                .then(() => document.getElementById(elementID1).click())
                                 .catch(error => console.log(error));
                         }
-                    } className="btnBG br3 pa2 ma2 grow bw2 shadow-5" /></a>
+                    } className="btnBG br3 pa2 ma2 grow bw2 shadow-5" />
                 </div>
             </div>
         </div>
