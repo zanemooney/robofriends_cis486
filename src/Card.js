@@ -66,7 +66,7 @@ const Card = ({name, id}) => {
                                     console.log(error);
                                 });
                         }
-                    }>error</p>
+                    }>Loading</p>
                     <GoArrowDown onClick={
                         () => {
                             let elementID1= id+"-votes";
