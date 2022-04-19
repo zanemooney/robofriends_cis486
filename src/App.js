@@ -48,6 +48,12 @@ class App extends Component {
             );
         }
     }
+    componentDidUpdate() {
+        for (let i=1; i<=10; i++){
+            let voteView = i + "-votes";
+            document.getElementById(voteView).click();
+        }
+    }
 }
 
 export default App;
