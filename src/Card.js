@@ -20,7 +20,7 @@ const Card = ({name, id}) => {
         });         
         let config = {
             method: 'post',
-            url: 'https://corsanywhere.herokuapp.com/https://data.mongodb-api.com/app/data-pjnkk/endpoint/data/beta/action/updateOne',
+            url: 'https://thingproxy.freeboard.io/fetch/https://data.mongodb-api.com/app/data-pjnkk/endpoint/data/beta/action/updateOne',
             headers: {
                 'Content-Type': 'application/json',
                 'api-key': 'zqrxA3vvBjReuWuyOgUC6Lh32Vx5ax2AMJmwPw0SmR9BLoVU6Cd0cnyjqSoqgb2r'
@@ -41,7 +41,7 @@ const Card = ({name, id}) => {
         });         
         let config = {
             method: 'post',
-            url: 'https://corsanywhere.herokuapp.com/https://data.mongodb-api.com/app/data-pjnkk/endpoint/data/beta/action/findOne',
+            url: 'https://thingproxy.freeboard.io/fetch/https://data.mongodb-api.com/app/data-pjnkk/endpoint/data/beta/action/findOne',
             headers: {
                 'Content-Type': 'application/json',
                 'api-key': 'zqrxA3vvBjReuWuyOgUC6Lh32Vx5ax2AMJmwPw0SmR9BLoVU6Cd0cnyjqSoqgb2r'
